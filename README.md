@@ -1,4 +1,4 @@
-# App pokemon react-native
+# App pokemon React Native
 
 O app será em grupo (mesmo grupo da fábrica)
 
