@@ -14,9 +14,7 @@ const DATA = [];
 
 const getItem = (data, index) => ({
   id: Math.random().toString(12).substring(0),
-  title: `Pokemon: ${index + 1} \nAltura: ${id * 10}\nPeso: ${
-    id * 10 - 8190
-  }\nHabilidades: 3\nTipos: 2\nEstatísticas: 32`,
+  title: `Pokemon: ${index + 1} \nAltura: 15\nPeso:25\nHabilidades: 3\nTipos: 2\nEstatísticas: 32`,
 });
 
 const getItemCount = (data) => 20;
