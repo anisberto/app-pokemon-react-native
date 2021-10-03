@@ -14,9 +14,9 @@ export default function Sobre({ navigation }) {
         <Text style={{ fontWeight: "bold", fontSize: 20, paddingTop: 20 }}>
           Alunos:{" "}
         </Text>
-        <Text style={{ fontSize: 15, paddingTop: 10 }}>Anisberto dos Reis</Text>
-        <Text style={{ fontSize: 15, paddingTop: 10 }}>Jhonathan dos Reis</Text>
-        <Text style={{ fontSize: 15, paddingTop: 10 }}>Gustavo Gabriel</Text>
+        <Text style={{ fontSize: 15, paddingTop: 10 }}>Anisberto dos Reis.</Text>
+        <Text style={{ fontSize: 15, paddingTop: 10 }}>Jhonathan dos Reis.</Text>
+        <Text style={{ fontSize: 15, paddingTop: 10 }}>Gustavo Gabriel.</Text>
         <Text style={{ fontSize: 15, paddingTop: 10, paddingBottom:100 }}>Miguel Neto.</Text>
         <Button onPress={() => navigation.goBack()} title=":: Voltar ::" />
         <Text style={{ fontSize: 20, paddingTop: 150 }}>
