@@ -1,19 +1,19 @@
-import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeListPokemon from "./src/pages/pokemons/listPokemons";
+import * as React from 'react';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import PokemonsFavoritos from './src/Favoritos/favoritos';
+import ListagemPokemons from './src/Pokemons/pokemons';
 
-const Stack = createNativeStackNavigator();
+
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="Pokemons"
-          component={HomeListPokemon}
-        />
-      </Stack.Navigator>
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen name="Lista de Pokemons" component={ListagemPokemons} />
+        <Drawer.Screen name="Pokemons Favoritos" component={PokemonsFavoritos} />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>apppokemon</name>
+	<name>pokemon</name>
 	<comment>Project android created by Buildship.</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1633009219034</id>
+			<id>1633223076971</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

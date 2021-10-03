@@ -1,4 +1,4 @@
-package com.apppokemon.generated;
+package com.pokemon.generated;
 
 import java.util.Arrays;
 import java.util.List;

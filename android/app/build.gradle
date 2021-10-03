@@ -132,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.apppokemon"
+        applicationId "com.pokemon"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
