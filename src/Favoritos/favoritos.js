@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   item: {
-    backgroundColor: "#29338F",
+    backgroundColor: "#2D80D1",
     height: 250,
     justifyContent: "center",
     marginVertical: 8,
