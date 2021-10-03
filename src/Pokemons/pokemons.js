@@ -4,16 +4,10 @@ import BuscarPokemons from "../Busca/busca";
 
 export default function ListagemPokemons({ navigation }) {
   return (
-    <>
-      <View style={{ flex: 1, alignItems: "center", paddingTop:30 }}>
+
+      <View style={{ flex: 1, alignItems: "center", paddingTop:10 }}>
         <BuscarPokemons />
       </View>
-      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-        <Button
-          onPress={() => navigation.navigate("Notifications")}
-          title="BUSCAR"
-        />
-      </View>
-    </>
+
   );
 }
