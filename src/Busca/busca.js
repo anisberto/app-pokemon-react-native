@@ -11,6 +11,10 @@ export default function BuscarPokemons() {
           Buscar Pokemons:
         </Text>
         <TextInput
+          placeholder="Nome do Pokemon"
+          onChangeText={(textNome) => {
+            getByName(textNome);
+          }}
           style={{
             height: 35,
             width: 320,
