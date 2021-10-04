@@ -1,4 +1,4 @@
-package com.apppokemon;
+package com.pokemon;
 
 import android.os.Bundle;
 
