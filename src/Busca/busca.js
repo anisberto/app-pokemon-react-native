@@ -79,11 +79,19 @@ export default function BuscarPokemons() {
 
   async function addFavorito(item) {
     try {
+<<<<<<< HEAD
       await AsyncStorage.setItem('idPokemon', item);
       alert("Pokemon salvo!");
       Keyboard.dismiss();
 
       console.log("Mais um item salvo como favorito....", await AsyncStorage.getItem('idPokemon'));
+=======
+      await AsyncStorage.setItem("IdPokemon", idpokemon);
+      alert("Pokemon salvo!");
+      Keyboard.dismiss();
+
+      console.log("Mais um item salvo como favorito....", item);
+>>>>>>> 9dc930450c61f74ee67fae596a459f890509f651
     } catch (error) {
       console.info(error.data);
     }
