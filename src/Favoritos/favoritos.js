@@ -1,3 +1,4 @@
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import React from "react";
 import {
   View,
@@ -43,6 +44,7 @@ export default function PokemonsFavoritos({ navigation }) {
           Estes são seus Pokemons Favoritos
         </Text>
         <Button onPress={() => navigation.goBack()} title=":: Voltar ::" />
+        <Button onPress={() => getFavoritos()} color="green" title=":: Carregar Favoritos ::" />
       </View>
       <SafeAreaView style={styles.container}>
         <VirtualizedList
@@ -56,6 +58,11 @@ export default function PokemonsFavoritos({ navigation }) {
       </SafeAreaView>
     </>
   );
+
+  async function getFavoritos(){
+    let resultFavoritosKeys = await AsyncStorage.getItem('IdPokemon');
+    console.log({resultFavoritosKeys})
+  }
 }
 
 const styles = StyleSheet.create({

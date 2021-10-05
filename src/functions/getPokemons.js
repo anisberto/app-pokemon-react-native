@@ -17,3 +17,12 @@ export async function getPokemonByname(nome) {
     console.log(error);
   }
 }
+
+export async function getPokemonById(id) {
+  try {
+    const response = await api.get(`/pokemon/${id}`);
+    return response.data;
+  } catch (error) {
+    console.log(error);
+  }
+}
